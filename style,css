@@ -1,0 +1,48 @@
+/* Body */
+body {
+    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: blue;
+}
+
+/* Table */
+table {
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: #fff8dc;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+/* Table cells */
+td {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"] {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+input[type="submit"] {
+    padding: 8px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: darkgreen;
+}

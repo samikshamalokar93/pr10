@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>Login Page</title>
+
+<script>
+function validate()
+{
+var username=document.getElementById("user").value;
+var password=document.getElementById("pass").value;
+
+if(username=="")
+{
+alert("Please enter username");
+return false;
+}
+
+if(password=="")
+{
+alert("Please enter password");
+return false;
+}
+
+if(password.length<6)
+{
+alert("Password must be at least 6 characters");
+return false;
+}
+
+alert("Login Successful");
+return true;
+}
+</script>
+
+</head>
+
+<body bgcolor="lightyellow">
+
+<h2 align="center">Login Page</h2>
+
+<form onsubmit="return validate()">
+
+<table align="center" border="1" cellpadding="10">
+
+<tr>
+<td>Username</td>
+<td><input type="text" id="user"></td>
+</tr>
+
+<tr>
+<td>Password</td>
+<td><input type="password" id="pass"></td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Login">
+</td>
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
